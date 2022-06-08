@@ -14,11 +14,17 @@ This project is intended to give you a chance to flex some of the new items youâ
 
 ## Showcase
 
-![Sign-up Form Screenshot](images/sign-up-form-screenshot.png)
+### Desktop
+
+![Desktop Screenshot](images/screenshot-desktop)
+
+### Mobile
+
+![Mobile Screenshot](images/Screenshot-mobile)
 
 ## Live Demo
 
-ðŸ‘‰ **Preview:** https://emuel-vassallo.github.io/sign-up-form/
+ðŸ‘‰ **Preview:** https://emuel-vassallo.github.io/odin-sign-up-form/
 
 ## Built With
 
@@ -29,3 +35,5 @@ This project is intended to give you a chance to flex some of the new items youâ
 ## What I Learned
 
 ## Credits
+
+- [Photo](https://unsplash.com/photos/1_-EHQhkI_4) by [Nati Melnychuk](https://unsplash.com/@natinati)
