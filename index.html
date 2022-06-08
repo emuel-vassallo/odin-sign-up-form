@@ -4,7 +4,7 @@
     <title>Sign-up Form</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="" />
+    <link rel="shortcut icon" href="#" />
     <link href="style.css" rel="stylesheet" />
     <script src="script.js" defer></script>
   </head>
@@ -40,7 +40,7 @@
         Sign up <em>now</em> to get started.
       </p>
       <p>You <em>know</em> you want to.</p>
-      <form action="" method="get">
+      <form action="" method="get" onsubmit="return validateForm();">
         <fieldset>
           <legend>Let's do this!</legend>
           <div class="input-container">
@@ -77,8 +77,8 @@
                 type="tel"
                 id="phone_number"
                 name="phone_number"
-                min="8"
-                max="11"
+                minlength="8"
+                maxlength="11"
                 required
               />
             </div>
@@ -88,9 +88,10 @@
                 type="password"
                 id="password"
                 name="password"
-                min="8"
+                minlength="8"
                 required
               />
+              <span></span>
             </div>
             <div>
               <label for="confirm_password">CONFIRM PASSWORD</label>
@@ -98,9 +99,9 @@
                 type="password"
                 id="confirm_password"
                 name="confirm_password"
-                min="8"
                 required
               />
+              <span></span>
             </div>
           </div>
         </fieldset>
