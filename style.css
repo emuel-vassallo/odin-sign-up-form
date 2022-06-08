@@ -2,6 +2,7 @@
   --background-color: #f9fafb;
   --dark-red-default: #8b321a;
   --dark-red-hover: #6c0c04;
+  --form-background: white;
 }
 
 @font-face {
@@ -34,6 +35,14 @@ body {
   color: white;
 }
 
+.background-image {
+  height: 100vh;
+  filter: brightness(80%);
+  object-fit: cover;
+}
+
+/* Logo Card */
+
 .odin-logo-card {
   background: rgba(0, 0, 0, 0.35);
   position: absolute;
@@ -61,11 +70,7 @@ body {
   height: 95%;
 }
 
-.background-image {
-  height: 100vh;
-  filter: brightness(80%);
-  object-fit: cover;
-}
+/* Credit */
 
 .image-credit {
   position: absolute;
@@ -87,6 +92,8 @@ main {
   justify-content: center;
 }
 
+/* Paragraphs */
+
 main p {
   padding: 0 52px;
 }
@@ -98,18 +105,6 @@ main p:nth-child(-n + 2) {
 
 main p:first-child {
   margin: 0 10vw 0 0;
-  font-size: 2.4vh;
-}
-
-form {
-  width: auto;
-}
-
-fieldset {
-  width: 100%;
-  height: 250px;
-  background: white;
-  margin: 32px 0;
 }
 
 main p:last-child a {
@@ -121,6 +116,24 @@ main p:last-child a {
 main p:last-child a:hover {
   cursor: pointer;
   color: var(--dark-red-hover);
+}
+
+/* Form */
+
+fieldset {
+  height: 300px;
+  background: var(--form-background);
+  border: unset;
+  margin: 32px 0;
+  box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.27);
+  padding: 62px 0 50px 50px;
+}
+
+fieldset legend {
+  font-size: 1.4rem;
+  font-weight: 700;
+  position: relative;
+  top: 36px;
 }
 
 form button {
