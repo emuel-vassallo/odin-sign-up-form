@@ -16,11 +16,11 @@ This project is intended to give you a chance to flex some of the new items youâ
 
 ### Desktop
 
-![Desktop Screenshot](images/screenshot-desktop)
+![Desktop Screenshot](images/screenshot-desktop.png)
 
 ### Mobile
 
-![Mobile Screenshot](images/Screenshot-mobile)
+![Mobile Screenshot](images/Screenshot-mobile.png)
 
 ## Live Demo
 
