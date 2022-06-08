@@ -51,6 +51,11 @@ body {
   margin: 0;
 }
 
+.odin-logo-card h1 a {
+  text-decoration: none;
+  color: white;
+}
+
 .odin-logo-card img {
   height: 95%;
 }
