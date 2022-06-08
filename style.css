@@ -152,7 +152,7 @@ fieldset legend {
 fieldset div {
   display: flex;
   flex-direction: column;
-  width: 290px;
+  width: 21vw;
   gap: 4px;
 }
 
@@ -213,4 +213,46 @@ form button:active {
 form button,
 main p:last-child {
   font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .left-section {
+    height: 50vh;
+  }
+
+  .background-image {
+    height: 31vh;
+    width: 100vw;
+  }
+
+  .odin-logo-card {
+    top: 8vh;
+  }
+
+  main {
+    padding: 60px 23px;
+  }
+
+  main p:nth-child(-1n + 2) {
+    font-size: 1.2rem;
+  }
+
+  .input-container {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+
+  fieldset {
+    height: 420px;
+    margin: 32px 0;
+    padding: 81px 0 50px 50px;
+  }
+
+  fieldset div {
+    width: 62vw;
+  }
 }
