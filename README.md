@@ -20,7 +20,7 @@ This project is intended to give you a chance to flex some of the new items youâ
 
 ### Mobile
 
-![Mobile Screenshot](images/Screenshot-mobile.png)
+![Mobile Screenshot](images/screenshot-mobile.png)
 
 ## Live Demo
 
