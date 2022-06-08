@@ -34,6 +34,11 @@ This project is intended to give you a chance to flex some of the new items youâ
 
 ## What I Learned
 
+- Using a local font
+- Using javascript to check if passwords in a form are equal
+- Using pseudo-classes to add content to an element
+- Using relative and absolute positioning
+
 ## Credits
 
 - [Photo](https://unsplash.com/photos/1_-EHQhkI_4) by [Nati Melnychuk](https://unsplash.com/@natinati)
