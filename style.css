@@ -1,3 +1,8 @@
+:root {
+  --background-color: #f9fafb;
+  --dark-red-color: #8b321a;
+}
+
 @font-face {
   font-family: 'Norse-Bold';
   src: url('fonts/Norse-Bold.otf') format('opentype');
@@ -70,7 +75,7 @@ body {
 /* Main/Right Section */
 
 main {
-  background-color: #f9fafb;
+  background-color: var(--background-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,4 +104,14 @@ fieldset {
   height: 250px;
   background: white;
   margin: 32px 0;
+}
+
+main p:last-child a {
+  text-decoration: none;
+  color: var(--dark-red-color);
+  font-weight: bold;
+}
+
+main p:last-child a:hover {
+  filter: brightness(85%);
 }
