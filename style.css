@@ -1,6 +1,7 @@
 :root {
   --background-color: #f9fafb;
-  --dark-red-color: #8b321a;
+  --dark-red-default: #8b321a;
+  --dark-red-hover: #6c0c04;
 }
 
 @font-face {
@@ -113,10 +114,29 @@ fieldset {
 
 main p:last-child a {
   text-decoration: none;
-  color: var(--dark-red-color);
-  font-weight: bold;
+  color: var(--dark-red-default);
+  font-weight: 700;
 }
 
 main p:last-child a:hover {
-  filter: brightness(85%);
+  cursor: pointer;
+  color: var(--dark-red-hover);
+}
+
+form button {
+  background: var(--dark-red-default);
+  border: unset;
+  border-radius: 8px;
+  width: 220px;
+  height: 50px;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 8px 0 12px 52px;
+  box-shadow: 6px 6px 19px -3px rgba(0, 0, 0, 0.27);
+}
+
+form button:hover {
+  background: var(--dark-red-hover);
+  cursor: pointer;
 }
