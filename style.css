@@ -18,6 +18,8 @@ body {
   padding: 0;
 }
 
+/* Left Section */
+
 .left-section {
   display: flex;
   flex-direction: column;
@@ -63,4 +65,38 @@ body {
 
 .image-credit a {
   color: white;
+}
+
+/* Main/Right Section */
+
+main {
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main p {
+  padding: 0 52px;
+}
+
+main p:nth-child(-n + 2) {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+main p:first-child {
+  margin: 0 10vw 0 0;
+  font-size: 2.4vh;
+}
+
+form {
+  width: auto;
+}
+
+fieldset {
+  width: 100%;
+  height: 250px;
+  background: white;
+  margin: 32px 0;
 }
